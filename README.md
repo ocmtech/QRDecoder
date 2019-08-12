@@ -20,7 +20,7 @@ allprojects {
 dependencies {
     ...
     ......
-    implementation "com.ocm.lib:qrdecoder:1.0.0"
+    implementation "com.ocm.lib:qrdecoder:1.0.3"
 }
 ```
 3. 解码
