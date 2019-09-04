@@ -86,7 +86,6 @@ class MainActivity : Activity(), CameraSurfaceView.OnCameraListener {
         data?.let { data ->
             qrDecoder.processData(data, width, height, 90f, GLES2Render.MIRROR_NONE)
         }
-        tvThreshold.text = ExtractQrCodeHelper.threshold.toString()
         return arrayOfNulls<Rect>(0)
     }
 
